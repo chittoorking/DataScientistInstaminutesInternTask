@@ -4,14 +4,14 @@ present architectures like stacked LSTM, transformers, etc.
 
 Answer:
 
-I think stacked LSTM architecture  can satisfy  the requirement.
-A Stacked LSTM architecture can be defined as an LSTM model comprised of multiple LSTM layers. 
-An LSTM layer above provides a sequence output rather than a single value output to the LSTM layer below. 
-Specifically, one output per input time step, rather than one output time step for all input time steps.
+I think stacked BERT architecture  can satisfy  the requirement.
+BERT is basically an Encoder stack of transformer architecture. 
+A transformer architecture is an encoder-decoder network that uses self-attention on the encoder side and attention on the decoder side. 
+BERTBASE has 12 layers in the Encoder stack while BERTLARGE has 24 layers in the Encoder stack. 
 
 
 Q2. Any automatic (python script) approach can you think of to label the data for training?
-(Don’t overthink, think of simple approaches that you use as human)
+(Donâ€™t overthink, think of simple approaches that you use as human)
 
 Answer:
 
