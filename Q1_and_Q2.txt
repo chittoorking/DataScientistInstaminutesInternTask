@@ -4,7 +4,7 @@ present architectures like stacked LSTM, transformers, etc.
 
 Answer:
 
-I think stacked BERT architecture  can satisfy  the requirement.
+I think BERT architecture  can satisfy  the requirement.
 BERT is basically an Encoder stack of transformer architecture. 
 A transformer architecture is an encoder-decoder network that uses self-attention on the encoder side and attention on the decoder side. 
 BERTBASE has 12 layers in the Encoder stack while BERTLARGE has 24 layers in the Encoder stack. 
