@@ -1,0 +1,21 @@
+Q1. What algorithm or architecture do you think of which can satisfy the requirement (if any)?
+(Analogy will suffice), bonus point (optional) if you can think of some innovative method outside of
+present architectures like stacked LSTM, transformers, etc.
+
+Answer:
+
+I think stacked LSTM architecture  can satisfy  the requirement.
+A Stacked LSTM architecture can be defined as an LSTM model comprised of multiple LSTM layers. 
+An LSTM layer above provides a sequence output rather than a single value output to the LSTM layer below. 
+Specifically, one output per input time step, rather than one output time step for all input time steps.
+
+
+Q2. Any automatic (python script) approach can you think of to label the data for training?
+(Don’t overthink, think of simple approaches that you use as human)
+
+Answer:
+
+In supervised machine learning approach, we must know in advance the number of labels the text documents could belong to. 
+Then during pre-processing stage we need to label the data in documents manually for training our model accurately. 
+For this task, the data can be tagged with POS or NER depending on problem area. 
+After some part of the data being labelled we can define the rules or write our own code to label other part of data and keep checking the model by testing with partial designed model.
